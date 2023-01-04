@@ -1,0 +1,58 @@
+format= """
+$username\
+$hostname\
+$directory\
+$git_branch\
+$git_commit\
+$git_state\
+$git_status\
+$git_metrics\
+$java\
+$kotlin\
+$python\
+$aws\
+$cmd_duration $time\
+$fill\
+$line_break\
+$character"""
+
+[python]
+format = "[${symbol}(${version} )]($style)"
+style = "bold blue"
+
+[java]
+format = "[${symbol}(${version} )]($style)"
+style = "bold blue"
+
+[kotlin]
+format = "[$symbol($version )]($style)"
+style = "bold blue"
+
+[fill]
+symbol = " "
+
+[username]
+style_user = "bold green"
+show_always = true 
+
+[character]
+success_symbol = "[❯](green)"
+error_symbol = "[❯](red)"
+#vicmd_symbol = "[❮](green)"
+
+[git_branch]
+symbol = '🌱 '
+format = "[$symbol$branch]($style) "
+style = "yellow"
+
+[directory]
+read_only = '🔒'	
+
+[time]
+format = "at [$time]($style) "
+style = "bold yellow"
+disabled = false
+
+[line_break]
+disabled = false
+
