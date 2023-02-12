@@ -9,6 +9,6 @@ Steps:
 5. You can customize as per your requirement in that .toml file. You can find my .toml file in the repo and also more options and customization are available on link.
 
 
-StarShip      ==> https://starship.rs/guide/#%F0%9F%9A%80-installation.
+StarShip      -> https://starship.rs/guide/#%F0%9F%9A%80-installation.
 
-starship.toml ==> https://github.com/snehpanchal655/Starship-Modifying_Ubuntu_Terminal/blob/master/starship.toml
+starship.toml -> https://github.com/snehpanchal655/Starship-Modifying_Ubuntu_Terminal/blob/master/starship.toml
