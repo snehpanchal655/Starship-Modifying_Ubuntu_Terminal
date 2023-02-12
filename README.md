@@ -1,6 +1,6 @@
 ### Starship-Modifying_Ubuntu_Terminal
 
-#Steps:
+Steps:
 
 1. Go to the starship link.
 2. Go to the Installation and select the operating system and pick the command and execute it in the terminal.
